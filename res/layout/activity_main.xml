@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.vane.clickarea.widget.MenuViewItem
+        android:id="@+id/menu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_1" />
+
+    <com.vane.clickarea.widget.MenuViewItem
+        android:id="@+id/menu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_2" />
+
+    <com.vane.clickarea.widget.MenuViewItem
+        android:id="@+id/menu_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_3" />
+
+    <com.vane.clickarea.widget.MenuViewItem
+        android:id="@+id/menu_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/chrome_4" />
+
+</FrameLayout>
